@@ -1,0 +1,63 @@
+.sidebar {
+  height: 750px;
+}
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+.btn {
+  height: 80px;
+}
+.welcome {
+  background-image: url(images/bac.jpg);
+  height: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.image h3 {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.texthover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: all 1s;
+}
+.texthover:hover {
+  transform: scale(1.02);
+}
+@media (width < 765px) {
+  .sidebar {
+    height: 100%;
+  }
+  .welcome {
+    font-size: small;
+  }
+  .px-5 {
+    padding-right: 3rem !important;
+    padding-left: 0rem !important;
+  }
+  .last {
+    margin-top: 15px !important;
+    height: 550px;
+  }
+}
+.protest-revolution-regular {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.main a {
+  padding-bottom: 4px;
+  transition: all 2s;
+}
+.main a:hover {
+  border-bottom: 2px solid red;
+}
